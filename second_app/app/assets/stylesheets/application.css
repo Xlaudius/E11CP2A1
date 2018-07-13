@@ -22,3 +22,7 @@
  .navbar{
    background-color: #52637f;
  }
+
+ .btn, .btn:visited{
+   color: whitesmoke;
+ }

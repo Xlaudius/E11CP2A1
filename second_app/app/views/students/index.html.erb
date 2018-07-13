@@ -19,9 +19,9 @@
             <td><%= student.name %></td>
             <td><%= student.age %></td>
             <td><%= student.email %></td>
-            <td><%= link_to 'Show', student, class:"btn btn-success" %></td>
-            <td><%= link_to 'Edit', edit_student_path(student),class:"btn btn-info" %></td>
-            <td><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
+            <td><%= link_to 'Mostrar', student, class:"btn btn-success" %></td>
+            <td><%= link_to 'Editar', edit_student_path(student),class:"btn btn-info" %></td>
+            <td><%= link_to 'Eliminar', student, method: :delete, data: { confirm: "Esta seguro de eliminar?" }, class:"btn btn-danger" %></td>
           </tr>
         <% end %>
       </tbody>

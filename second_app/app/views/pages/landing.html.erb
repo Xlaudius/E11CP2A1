@@ -1,4 +1,4 @@
-<h1>Pages#landing</h1>
+<h1>Landing</h1>
 
 <table class="table table-hover">
   <thead>
@@ -14,9 +14,9 @@
       <tr>
         <td><%= student.name %></td>
         <td><%= student.email %></td>
-        <td><%= link_to 'Show', student, class:"btn btn-primary" %></td>
-        <td><%= link_to 'Edit', edit_student_path(student),class:"btn btn-info" %></td>
-        <td><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
+        <td><%= link_to 'Mostrar', student, class:"btn btn-primary" %></td>
+        <td><%= link_to 'Editar', edit_student_path(student),class:"btn btn-info" %></td>
+        <td><%= link_to 'Eliminar', student, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
